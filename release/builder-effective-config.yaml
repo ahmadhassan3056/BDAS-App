@@ -1,0 +1,32 @@
+directories:
+  output: release
+  buildResources: build
+appId: com.bdas.borescope
+productName: BDAS
+files:
+  - filter:
+      - dist/**/*
+      - electron.cjs
+      - preload.cjs
+      - db.cjs
+      - package.json
+      - assets/**/*
+win:
+  target: nsis
+  icon: assets/icon.ico
+  executableName: BDAS 1.0.0
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: BDAS
+  uninstallDisplayName: BDAS
+icon: assets/icon.ico
+mac:
+  icon: assets/icon.png
+linux:
+  icon: assets/icon.png
+artifactName: BDAS Setup.${ext}
+electronVersion: 30.5.1
