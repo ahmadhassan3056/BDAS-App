@@ -32,7 +32,7 @@ function BrandHeader() {
             BDAS
           </div>
           <div className="text-slate-200 mt-1 text-sm md:text-base">
-            Borescope Data Archiving System
+            Borescope Data Archiving Systems
           </div>
           <div className="h-px bg-slate-700/60 mt-3 w-56"></div>
         </div>
