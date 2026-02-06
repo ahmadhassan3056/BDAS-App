@@ -88,7 +88,7 @@ function Home({ onGoEntry, onGoView, onGoSummary, onOpenLogin, onChangePasswordC
               {title}
             </div>
             <div className="text-sm text-slate-200 mt-1">
-              {msg} {isStrong ? "Immediate backup is not strongly recommended." : "Please create a backup for safety."}
+              {msg} {isStrong ? "Immediate backup is strongly recommended." : "Please create a backup for safety."}
             </div>
             <div className="mt-3 flex gap-2">
               <button
